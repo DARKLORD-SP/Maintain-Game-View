@@ -29,6 +29,6 @@ public class GameViewMaintainer : MonoBehaviour
 #endif
 
         defaultFOV = _camera.focalLength * _camera.aspect;
-        _camera.focalLength = defaultFOV / _camera.aspect;
+        _camera.focalLength = defaultFOV;
     }
 }
