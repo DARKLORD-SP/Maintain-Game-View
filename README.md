@@ -11,4 +11,7 @@ I was just doing some random things with camera. And suddenly it all worked. I w
 
 Again if anyone wants to share an improved or proper version of the script then please DO SO!
 
-GameViewMaintainer gm = new GameViewMaintainer(myMainCamera, new Vector2(1080,1920));
+
+  GameViewMaintainer gm = new GameViewMaintainer(myMainCamera, new Vector2(1080,1920));
+  
+Thats it! once the object is created it will maintain the Resolution.
